@@ -1,0 +1,17 @@
+#titulo
+{
+    color: rgb(199, 0, 33);
+    font-family: cursive;
+}
+
+#botaoCalc
+{
+    background-color: rgb(218, 111, 129);
+    color: rgb(199, 0, 33);
+    font-family: cursive;
+    border-color: rgb(218, 111, 129);
+    border-radius: 20px;
+    border-style: dotted;
+    font-size: larger;
+}
+
