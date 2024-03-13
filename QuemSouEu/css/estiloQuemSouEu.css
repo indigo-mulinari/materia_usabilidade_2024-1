@@ -1,0 +1,43 @@
+body
+{
+
+}
+
+#titulo
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: Tahoma;
+}
+
+.container
+{
+    display: flex;
+}
+
+.fotoEu, .descricaoEu {
+    align-items: ;
+    position: relative;
+    left:10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+.descricaoEu
+{
+    width: 700px;
+}
+
+img#fotoEu
+{
+    width:500px;
+    height:500px;
+}
+
+#descricaoEu
+{
+    text-align: justify;
+    font-size: 17px;
+    font-family: Tahoma;
+}
