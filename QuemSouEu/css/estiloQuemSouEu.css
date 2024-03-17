@@ -1,13 +1,15 @@
 body
 {
     background-repeat: repeat;
+    font-family: 'Pixel';
 }
 
 #titulo
 {
     margin-top: 70px;
     font-size: 30px;
-    font-family: Tahoma;
+    font-family: 'Pixel';
+    
 }
 
 .container
@@ -21,8 +23,13 @@ body
     margin: 10px;
     padding: 10px;
     border: 1px solid #ddd;
+    background-repeat: no-repeat;
 }
 
+#fotoEu
+{
+    width: 200px;
+}
 
 .descricaoEu
 {
@@ -30,15 +37,8 @@ body
     align-self: center;
 }
 
-img#fotoEu
-{
-    width: 500px;
-    height: 500px;
-}
-
 #descricaoEu
 {
     text-align: justify;
     font-size: 20px;
-    font-family: Tahoma;
 }
