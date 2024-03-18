@@ -1,56 +1,34 @@
-var num1 = 2;
-var num2 = 10;
-var result = 0;
-//var opera = 3;
-
-function soma()
+function calcular(opera)
 {
-    result = num1 + num2;
-    alert(num1 + " + " + num2 + " = " + result);
-    console.log("Executando função soma()");
+    var result = 0;
+    var num1 = document.getElementById('num1').value;
+    var num2 = document.getElementById('num2').value;
+    if (opera == 'soma')
+    {
+        result = parseFloat(num1) + parseFloat(num2);
+        console.log("Executando função calcular(soma)"); 
+    }
+    if (opera == 'sub')
+    {
+        result = parseFloat(num1) - parseFloat(num2);
+        console.log("Executando função calcular(sub)");
+    }
+    if (opera == 'mult')
+    {
+        result = parseFloat(num1) * parseFloat(num2);
+        console.log("Executando função calcular(mult)");
+    }
+    if (opera == 'divi')
+    {
+        if (num2 == 0)
+        {
+            alert("Essa conta não é possível :(")
+        } 
+        else 
+        {
+            result = parseFloat(num1) / parseFloat(num2);
+        }
+        console.log("Executando função calcular(divi)");
+    }
+    document.getElementById('result').value = result;
 }
-
-function sub()
-{
-    result = num1 - num2;
-    alert(num1 + " - " + num2 + " = " + result);
-    console.log("Executando função sub()");
-}
-
-function mult()
-{
-    result = num1 * num2;
-    alert(num1 + " * " + num2 + " = " + result);
-    console.log("Executando função mult()");
-}
-
-function divi()
-{
-    result = num1 / num2;
-    alert(num1 + " / " + num2 + " = " + result);
-    console.log("Executando função divi()");
-}
-
-
-/*switch (opera)
-{
-    case 1:
-    soma();
-    break;
-
-    case 2:
-    sub();
-    break;
-
-    case 3:
-    divi();
-    break;
-
-    case 4:
-    mult();
-    break;
-
-    default:
-    alert("ERRO! Essa operação não existe");
-    break;
-}*/

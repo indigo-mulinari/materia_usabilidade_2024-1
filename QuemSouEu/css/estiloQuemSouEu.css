@@ -19,6 +19,7 @@ body
 }
 
 .fotoEu, .descricaoEu {
+    background-color: rgb(248, 228, 248);
     position: relative;
     margin: 10px;
     padding: 10px;

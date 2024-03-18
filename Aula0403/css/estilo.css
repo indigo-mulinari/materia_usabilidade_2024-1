@@ -1,24 +1,51 @@
-body
-{
-    
+body{
+    font-family: verdana;
+    font-weight: bold;
+    background-image: url(estralaspreto.gif);
+    background-repeat: repeat;
+    cursor: url(cursor.png.png), default;
 }
 
 #titulo
 {
-    color: rgb(199, 0, 33);
-    font-family: cursive;
+    background-image: url(./glitter.gif);
+    background-clip: text;
+    background-repeat: repeat;
+    color: transparent;
+    font-size: 45px;
 }
 
 #botaoCalc
+{  
+    background-color: black;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+    border-style: dashed;
+    font-size: 30px;
+}
+
+#botaoCalc:hover
 {
-    background-color: rgb(218, 111, 129);
-    color: rgb(199, 0, 33);
-    font-family: cursive;
-    border: 10px;
-    border-color: rgb(218, 111, 129);
-    border-radius: 40px;
-    border-style: dotted;
-    font-size: larger;
-    
+    background-image: url(./glitter.gif);
+    color: black;
+    font-size: 30px;
+}
+
+#result, #num1, #num2
+{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-style: none;
+}
+
+#num1:hover, #num2:hover
+{
+    background-image: url(./glitter.gif);
+    background-repeat: repeat;
+    color: white;
+    font-size: 20px;
+    border-style: none;
 }
 

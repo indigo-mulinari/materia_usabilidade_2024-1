@@ -10,7 +10,7 @@
         </script>-->
     </head>
 
-    <body background-color="rgb(255, 245, 199);">
+    <body>
 
         <center>
         <h2 id="titulo">Vejam!!!</h2>
@@ -18,13 +18,26 @@
         
         <br>
         <br>
+
+        <input type="text" id="num1" placeholder="Número 1 :3">
+        <input type="text" id="num2" placeholder="Número 2 :3">
+
+        <br>
+        <br>
         
-        <button id="botaoCalc" onclick="soma()">SOMA</button>
-        <button id="botaoCalc" onclick="sub()">SUBTRAÇÃO</button>
+        <button id="botaoCalc" onclick="calcular('soma')">SOMA</button>
+        <button id="botaoCalc" onclick="calcular('sub')">SUBTRAÇÃO</button>
+
         <br>
         <br>
-        <button id="botaoCalc" onclick="mult()">MULTIPLICAÇÃO</button>
-        <button id="botaoCalc" onclick="divi()">DIVISÃO</button>
+
+        <button id="botaoCalc" onclick="calcular('mult')">MULTIPLICAÇÃO</button>
+        <button id="botaoCalc" onclick="calcular('divi')">DIVISÃO</button>
+
+        <br>
+        <br>
+
+        <input type="text" id="result" placeholder="Resultado :3" disabled>
         </center>
         
         <!--Pode colocar o script em qqr lugar que não muda nada-->
