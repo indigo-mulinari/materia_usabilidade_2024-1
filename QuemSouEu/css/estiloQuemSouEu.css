@@ -1,45 +1,60 @@
-body
-{
+@font-face {
+    font-family: 'Pixel';
+    src: url(./fontes/PixelOperator.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Pixel';
+    src: url(./fontes/PixelOperator-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+body {
+    background-image: url('./imagens/fundo/estrela.gif');
     background-repeat: repeat;
     font-family: 'Pixel';
 }
 
-#titulo
-{
+#titulo {
     margin-top: 70px;
     font-size: 30px;
-    font-family: 'Pixel';
-    
+    font-family: 'Pixel';  
 }
 
-.container
-{
-    display: inline-flex;
-    
+#blinkieAutism, #blinkieConection, #blinkieSilly, #blinkieWeb {
+    width: 300px;
 }
 
-.fotoEu, .descricaoEu {
-    background-color: rgb(248, 228, 248);
-    position: relative;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    background-repeat: no-repeat;
+
+.janela {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: absolute;
 }
 
-#fotoEu
-{
-    width: 200px;
+.barra-titulo {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px;
+    cursor: move;
 }
 
-.descricaoEu
-{
-    width: 500px;
-    align-self: center;
+.btn-fechar {
+    float: right;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-#descricaoEu
-{
-    text-align: justify;
-    font-size: 20px;
+.conteudo {
+    padding: 16px;
+    overflow: hidden;
+}
+
+#fotoEu {
+    max-width: 100%;
+    max-height: 100%;
 }

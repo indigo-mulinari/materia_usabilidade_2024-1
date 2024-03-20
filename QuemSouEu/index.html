@@ -5,55 +5,61 @@
     <link rel="stylesheet" href="css/estiloQuemSouEu.css">
     <script src="javaScript/scriptQuemSouEu.js"></script>
     <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
-    <style>
-        @font-face {
-            font-family: 'Pixel';
-            src: url(css/fontes/PixelOperator.ttf) format('truetype');
-        }
-        @font-face {
-            font-family: 'Pixel';
-            src: url(css/fontes/PixelOperator-Bold.ttf) format('truetype');
-            font-weight: bold;
-        }
-    </style>
 </head>
 
-<body id="bg" style="background-image: url(css/imagens/fundo/estrela.gif);">
+<body id="bg">
 
     <center>
         <h1 id="titulo">Olá! Meu nome é Índigo!</h1>
+        
+        <br>  
+
+        <div class="janela" id="janelaFoto" name="janela">
+            <div class="barra-titulo" id="barraFoto" name="barra-titulo">
+                <button class="btn-fechar" id="fecharFoto" name="btn-fechar">X</button>
+            </div>
+            <div class="conteudo" id="conteudoFotoEu">
+                <img id="fotoEu" alt="Foto Minha" src="./css/imagens/euTM.jpg">
+            </div>
+        </div>  
+
+        <br>    
         <br>
-        <div class="container">            
-            <div class="fotoEu">
-                <img id="fotoEu" src="css/imagens/euTM.jpg">
+
+        <div class="janela" id="janelaDesc">
+            <div class="barra-titulo" id="barraDesc">
+                <button class="btn-fechar" id="FecharDesc">X</button>
             </div>
-            <br>
-            <br>
-            <div class="descricaoEu">
-                <p id="descricaoEu">
-                    Eu tenho 22 anos, estou no último semestre de <b>Análise e Desenvolvimento de Sistemas</b> na
-                    USJT. <br> Sou autista, trans e tenho dois namorados incríveis que eu amo muito. Sou pai de dois
-                    gatinhos e um gatão <del>(ps. ela é uma cadela, mas ela acha que é um gatinho então a gente não
-                    conta pra ela)</del> <br> Aprendi a mexer no Excel na mesma época em que aprendi a escrever, e desde então
-                    eu uso planilhas para tudo. <br> Tenho conhecimento em <b>HTML e CSS</b> básico (Esse site? Eu que
-                    fiz!), <b>Java e JavaScript</b>
-                    intermediário e <b>Pacote Office</b> avançado, com foco em <b>Excel</b>. <br> Dentro do
-                    Desenvolvimento de Sistemas,
-                    minha área favorita é a <b>Modelagem e Engenharia de Software</b>. Tenho conhecimento em
-                    <b>StarUML</b> e adoro fazer
-                    uma especificação de requisitos. <b>Gestão de Qualidade</b> é uma grande área de interesse,
-                    principalmente a
-                    criação do plano de testes. <br> Eu tenho muito a aprender ainda, e minha jornada está só no começo!
-                </p>
+            <div class="conteudo" id="conteudoDesc">
+            <p id="descricaoEu">
+                Eu tenho 22 anos, estou no último semestre de <b>Análise e Desenvolvimento de Sistemas</b> na
+                USJT. <br> Sou autista, trans e tenho dois namorados incríveis que eu amo muito. Sou pai de dois
+                gatinhos e um gatão <del>(ps. ela é uma cadela, mas ela acha que é um gatinho então a gente não
+                conta pra ela)</del> <br> Aprendi a mexer no Excel na mesma época em que aprendi a escrever, e desde então
+                eu uso planilhas para tudo. <br> Tenho conhecimento em <b>HTML e CSS</b> básico (Esse site? Eu que
+                fiz!), <b>Java e JavaScript</b>
+                intermediário e <b>Pacote Office</b> avançado, com foco em <b>Excel</b>. <br> Dentro do
+                Desenvolvimento de Sistemas,
+                minha área favorita é a <b>Modelagem e Engenharia de Software</b>. Tenho conhecimento em
+                <b>StarUML</b> e adoro fazer
+                uma especificação de requisitos. <b>Gestão de Qualidade</b> é uma grande área de interesse,
+                principalmente a
+                criação do plano de testes. <br> Eu tenho muito a aprender ainda, e minha jornada está só no começo!
+            </p>
             </div>
-            </div>
-            <div class="blinkies">
-                <img id="blinkieTrans" src="css/imagens/blinkies/blinkie_trans.gif" />
-                <img id="blinkiePet" src="css/imagens/blinkies/blinkie_paidepet.gif" />
-                <img id="blinkieGay" src="css/imagens/blinkies/blinkie_comprometidoTM.gif" />
-            </div>
+        </div>
+        
+        <div class="blinkies">
+            <img id="blinkieAutism" src="./css/imagens/blinkies/autism.gif" />
+            <img id="blinkieConection" src="./css/imagens/blinkies/conection.gif" />
+            <img id="blinkieSilly" src="./css/imagens/blinkies/silly.gif" />
+            <img id="blinkieWeb" src="./css/imagens/blinkies/webrevival.gif" />
+        </div>
+
         <iframe width="314" height="321" scrolling="no" src="https://gifypet.neocities.org/pet/pet.html?name=Grob&dob=1710507271&gender=b&element=Air&pet=robot.gif&map=ozwomp.jpg&background=gify.jpg&tablecolor=black&textcolor=black" frameborder="0"></iframe>
+
     </center>
+    <a href='https://blinkies.cafe' target='_blank'><img src='https://blinkies.cafe/b/display/blinkiesCafe-badge.gif' alt='blinkies.cafe | make your own blinkies!'></a>
 </body>
 
 </html>

@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.movel-fechavel {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: absolute;
+}
+
+.barra-titulo {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px;
+    cursor: move;
+}
+
+.btn-fechar {
+    float: right;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.conteudo {
+    padding: 16px;
+}
