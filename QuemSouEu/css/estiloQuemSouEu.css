@@ -14,47 +14,43 @@ body {
     font-family: 'Pixel';
 }
 
+#tudo {
+    background-color: pink;
+}
+
 #titulo {
     margin-top: 70px;
     font-size: 30px;
     font-family: 'Pixel';  
 }
 
-#blinkieAutism, #blinkieConection, #blinkieSilly, #blinkieWeb {
-    width: 300px;
+#container {
+    align-items: center;
+    display: inline-flex;
+    padding: 30px;
 }
 
-
-.janela {
-    width: 400px;
-    height: 400px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    position: absolute;
+#divFotoEu, #divDescEu {
+    align-self: center;
+    margin-left: 30px;
 }
 
-.barra-titulo {
-    background-color: #007bff;
-    color: #fff;
-    padding: 8px;
-    cursor: move;
-}
-
-.btn-fechar {
-    float: right;
-    background: none;
-    border: none;
-    color: black;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.conteudo {
-    padding: 16px;
-    overflow: hidden;
+#divFotoEu {
+    width: 600px;
+    background-image: url('./adendos/container1.png');
+    background-size: 200px;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 #fotoEu {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100px;
+}
+
+#divDescEu {
+    width: 400px;
+}
+
+#blinkieAutism, #blinkieConection, #blinkieSilly, #blinkieWeb {
+    width: 300px;
 }
