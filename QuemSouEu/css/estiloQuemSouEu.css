@@ -8,49 +8,69 @@
     font-weight: bold;
 }
 
+
 body {
     background-image: url('./imagens/fundo/estrela.gif');
     background-repeat: repeat;
     font-family: 'Pixel';
+    cursor: url('./cursores/gatoNormal.png'), auto;
 }
 
 #tudo {
     background-color: pink;
+    width: 90%;
 }
 
 #titulo {
-    margin-top: 70px;
+    padding-top: 20px;
     font-size: 30px;
     font-family: 'Pixel';  
 }
 
+#dividerCabecalho {
+    height: 50px;
+    width: 100%;
+    background-image: url('./adendos/heartLaceDivider.gif');
+    background-repeat: repeat;
+}
+
 #container {
+    background-color: white;
     align-items: center;
     display: inline-flex;
     padding: 30px;
 }
 
-#divFotoEu, #divDescEu {
-    align-self: center;
-    margin-left: 30px;
+#blinkieAutism, #blinkieConection, #blinkieSilly, #blinkieWeb {
+    width: 200px;
+    padding-bottom: 20px;
+}
+
+#divBlinkies {
+    width: 200px;
 }
 
 #divFotoEu {
-    width: 600px;
-    background-image: url('./adendos/container1.png');
-    background-size: 200px;
-    background-position: top;
-    background-repeat: no-repeat;
+    width: 350px;
 }
 
 #fotoEu {
-    width: 100px;
+    width: 300px;
 }
 
 #divDescEu {
     width: 400px;
+    text-align: justify;
 }
 
-#blinkieAutism, #blinkieConection, #blinkieSilly, #blinkieWeb {
-    width: 300px;
+#descEu {
+    font-size: 18px;
+}
+
+#footer {
+    margin-top: 10px;
+    height: 20px;
+    width: 100%;
+    background-image: url('./adendos/gatinhoDivider.gif');
+    background-repeat: repeat;
 }
