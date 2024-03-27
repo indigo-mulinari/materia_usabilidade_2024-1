@@ -1,3 +1,7 @@
+* {
+    cursor: url("./cursores/cursorGato.png"), auto !important;
+} 
+
 @font-face {
     font-family: 'Pixel';
     src: url(./fontes/PixelOperator.ttf) format('truetype');
@@ -7,7 +11,6 @@
     src: url(./fontes/PixelOperator-Bold.ttf) format('truetype');
     font-weight: bold;
 }
-
 
 body {
     background-image: url('./imagens/fundo/estrela.gif');
@@ -41,26 +44,37 @@ body {
     padding: 30px;
 }
 
-#blinkieAutism, #blinkieConection, #blinkieSilly, #blinkieWeb {
+.blinkies {
     width: 200px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #divBlinkies {
     width: 200px;
+    background-color: blue;
+}
+
+#computer {
+    position: absolute;
+    padding-top: 100px;
+    padding-right: 20px;
 }
 
 #divFotoEu {
     width: 350px;
+    background-color: aqua;
 }
 
 #fotoEu {
     width: 300px;
+    align-items: center;
 }
 
 #divDescEu {
     width: 400px;
     text-align: justify;
+    background-color: chartreuse;
 }
 
 #descEu {
