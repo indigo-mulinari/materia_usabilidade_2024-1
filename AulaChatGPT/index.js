@@ -8,6 +8,8 @@ app.use(express.json())
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY
 const openai = new OpenAI(OPENAI_API_KEY)
 
+/* colocando em comentário pra poder jogar no git
+
 app.post('/pergunte-ao-chatgpt',async (req,res) => {
     const { prompt } = req.body
     
@@ -26,5 +28,7 @@ app.post('/pergunte-ao-chatgpt',async (req,res) => {
         completion: completion.choices[0].message.content
     })
 })
+
+*/
 const PORT = 4000
 app.listen(PORT, () => console.log(`Em execução na porta ${PORT}`))
