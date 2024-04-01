@@ -55,10 +55,24 @@ body {
     background-color: blue;
 }
 
+#divComputer{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(168, 138, 197);
+}
+
 #computer {
+    background-color: blueviolet;
+
     position: absolute;
     padding-top: 100px;
     padding-right: 20px;
+}
+
+#knuckles {;
+    position: absolute;
+    padding-left: 320px;
+    padding-bottom: 300px;
 }
 
 #divFotoEu {
