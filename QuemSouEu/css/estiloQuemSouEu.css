@@ -17,6 +17,7 @@ body {
     background-repeat: repeat;
     font-family: 'Pixel';
     cursor: url('./cursores/gatoNormal.png'), auto;
+    color: rgb(31, 36, 33);
 }
 
 #tudo {
@@ -69,7 +70,8 @@ body {
     padding-right: 20px;
 }
 
-#knuckles {;
+#knuckles {
+    background-color: aqua;
     position: absolute;
     padding-left: 320px;
     padding-bottom: 300px;

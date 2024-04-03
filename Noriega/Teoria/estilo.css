@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "daydream";
+    src: url(./Fontes/daydream/Daydream.ttf);
+}
+
+@font-face {
+    font-family: "superMario";
+    src: url(./Fontes/super_mario_world/Super-Mario-World.ttf);
+}
+
+body {
+    font-family: "daydream";
+    padding: 20px;
+    color: rgb(31, 36, 33);
+    background-color: rgb(250, 240, 202);
+}
+
+#dividerTopo {
+    height: 63px;
+    background-image: url("./img/divider.gif");
+    background-repeat: repeat-x;
+}
+
+#titulo1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#dividerLaço {
+    background-image: url("./img/dividerLaço.gif");
+    background-repeat: repeat-x;
+    height: 38px;
+}
+
+.paragrafo {
+    font-size: 20px;
+}
+
+.bobeira {
+    font-family: "superMario";
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+#pInl {
+    color: rgb(243, 56, 109);
+}
+
+#bla1 {
+
+}
+
+#bla2 {
+
+}
+
+#bla3 {
+
+}
+
+#pInt {
+    color: rgb(108, 105, 141);
+}
+
+#pExt {
+    color: rgb(130, 192, 204);
+}

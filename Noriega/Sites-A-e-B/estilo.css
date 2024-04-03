@@ -1,0 +1,49 @@
+@font-face {
+    font-family: superMario;
+    src: url("./super_mario_world/Super-Mario-World.ttf");
+}
+
+body {
+    font-family: "superMario";
+    font-size: 10px;
+    background-color: rgb(250, 240, 202);
+    color: rgb(31, 36, 33);
+}
+
+#tudo {
+    border: 2px;
+    border-color: rgb(31, 36, 33);
+    border-style: dashed;
+    width: 800px;
+    align-content: center;
+    padding: 15px;
+}
+
+#conteudo {
+    width: 750px;
+}
+
+#intoTheVoid {
+    width: 300px;
+}
+
+#titulo1{
+    color: rgb(243, 56, 109);
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+#paragrafo1 {
+    padding-top: 10px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+#paragrafo2{
+    text-align: justify;
+    padding-right: 30px;
+}
+
+#angy{
+    width: 200px;
+}
