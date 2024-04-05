@@ -3,20 +3,19 @@
 } 
 
 @font-face {
-    font-family: 'Pixel';
-    src: url(./fontes/PixelOperator.ttf) format('truetype');
+    font-family: 'RainyHearts';
+    src: url(./fontes/rainyhearts/rainyhearts.ttf) format('truetype');
 }
+
 @font-face {
-    font-family: 'Pixel';
-    src: url(./fontes/PixelOperator-Bold.ttf) format('truetype');
-    font-weight: bold;
+    font-family: 'Oliver';
+    src: url(./fontes/olive/Oliver-Regular.ttf) format('truetype');
 }
 
 body {
     background-image: url('./imagens/fundo/estrela.gif');
     background-repeat: repeat;
-    font-family: 'Pixel';
-    cursor: url('./cursores/gatoNormal.png'), auto;
+    font-family: 'RainyHearts';
     color: rgb(31, 36, 33);
 }
 
@@ -28,7 +27,11 @@ body {
 #titulo {
     padding-top: 20px;
     font-size: 30px;
-    font-family: 'Pixel';  
+    font-family: 'Oliver';
+    background-image: url(./imagens/fundo/backgroundPastel.gif);
+    background-repeat: repeat;
+    background-clip: text;
+    color: transparent;
 }
 
 #dividerCabecalho {
