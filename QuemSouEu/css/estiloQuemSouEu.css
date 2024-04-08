@@ -26,11 +26,12 @@ body {
 
 #titulo {
     padding-top: 20px;
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'Oliver';
-    background-image: url(./imagens/fundo/backgroundPastel.gif);
+    background-image: url(./imagens/fundo/rainbow2.gif);
     background-repeat: repeat;
     background-clip: text;
+    background-size: 200px;
     color: transparent;
 }
 
