@@ -1,24 +1,15 @@
 @font-face {
-    font-family: "daydream";
-    src: url(./Fontes/daydream/Daydream.ttf);
-}
-
-@font-face {
-    font-family: "superMario";
-    src: url(./Fontes/super_mario_world/Super-Mario-World.ttf);
+    font-family: "olive";
+    src: url(./Fontes/olive/Oliver-Regular.ttf);
 }
 
 body {
-    font-family: "daydream";
+    font-family: "olive";
     padding: 20px;
     color: rgb(31, 36, 33);
     background-color: rgb(250, 240, 202);
-}
-
-#dividerTopo {
-    height: 63px;
-    background-image: url("./img/divider.gif");
-    background-repeat: repeat-x;
+    text-align: justify;
+    width: 90%;
 }
 
 #titulo1 {
@@ -26,42 +17,86 @@ body {
     text-align: center;
 }
 
-#dividerLaço {
-    background-image: url("./img/dividerLaço.gif");
-    background-repeat: repeat-x;
-    height: 38px;
+#container {
+    display: inline-flex;
+    border: 2px;
+    border-style: dashed;
+}
+
+#textoEparagrafo {
+    display: block;
 }
 
 .paragrafo {
+    width: 100%;
     font-size: 20px;
+    color: rgb(243, 56, 109);
+    border: 1px;
+    border-style: dashed;
+    text-align: justify;
 }
 
-.bobeira {
-    font-family: "superMario";
+.texto {
+    position: relative;
     font-size: 15px;
     padding-left: 20px;
+    border: 1px;
+    border-style: dashed;
+    text-align: justify;
 }
 
-#pInl {
-    color: rgb(243, 56, 109);
+#angy {
+    position: relative;
+    border: 1px;
+    border-style: dashed;
+    text-align: right;
+    padding: 10px;
 }
 
-#bla1 {
+/* Smartphones (600px ou menos) */
+@media only screen and (max-width:600px) {
+    body {
+        background-color: cadetblue;
+    }
 
+    #angy {
+        display: none;
+    }
+
+    /*a classe texto não irá aparecer
+    .texto {
+        display: none;
+    }  */
 }
 
-#bla2 {
+/* Dispositivos um tico maiores */
+@media only screen and (min-width:600px) {
+    body {
+        background-color: wheat;
+    }
 
+    #angy {
+        width: 300px;
+    }
 }
 
-#bla3 {
-
+/* Dispositivos Médios (tablet horizontal, 768px ou mais) */
+@media only screen and (min-width:768px) {
+    body {
+        background-color: cornflowerblue;
+    }
 }
 
-#pInt {
-    color: rgb(108, 105, 141);
+/* Dispositivos Largos (laptop/desktop, 992px ou mais) */
+@media only screen and (min-width:992px) {
+    body {
+        background-color: darksalmon;
+    }
 }
 
-#pExt {
-    color: rgb(130, 192, 204);
+/* Dispositivos Super Largos (Tvs etc, 1100px ou mais) */
+@media only screen and (min-width:1100px) {
+    body {
+        background-color: darkslategrey;
+    }
 }
