@@ -35,6 +35,14 @@ body {
     color: transparent;
 }
 
+#helloKitty {
+    height: 50px;
+}
+
+#gatinho {
+    height: 50px;
+}
+
 #dividerCabecalho {
     height: 50px;
     width: 100%;
